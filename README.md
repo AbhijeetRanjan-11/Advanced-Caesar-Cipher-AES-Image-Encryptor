@@ -83,14 +83,21 @@ python app.py
 ✔ Encrypt images as files using AES (with CBC, GCM, or ECB)
 ✔ Scramble image pixels for visual encryption
 ✔ Decrypt image files or unscramble pixels
+
 📂 Project Structure
 
-├── app.py                # Main application with GUI logic
-├── encryption_utils.py   # Encryption & decryption helper functions
-├── requirements.txt      # Project dependencies
+image_encryptor_web/
+├── app.py
+├── encryption_utils.py
+├── requirements.txt
 ├── static/
-│   └── uploads/          # Stores encrypted and decrypted images
-└── templates/            # For future web version
+│   └── uploads/        # Encrypted/Decrypted Images Saved Here
+├── templates/
+│   ├── index.html
+│   └── result.html
+└── README.md
+
+
 
 🔒 Security Recommendations
 
