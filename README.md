@@ -7,9 +7,13 @@ Secure your text and images with modern cryptography, pixel-level scrambling, an
 This project combines classic encryption with modern AES security and pixel-level image scrambling:
 
 ✅ Caesar Cipher — Encrypt & Decrypt text with customizable shift
+
 ✅ AES Image Encryption — Secure full image files using AES (CBC, GCM, ECB modes)
+
 ✅ Pixel Scrambling — Visual scrambling of image pixels with AES for obfuscation
+
 ✅ Password Protection — PBKDF2-based key derivation with SHA-256 password hashing
+
 ✅ User-Friendly GUI — Tkinter-based graphical interface with image previews
 
 ✨ Features
